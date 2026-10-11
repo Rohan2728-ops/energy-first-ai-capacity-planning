@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # ---------------------------------------------------------
 
 st.set_page_config(
-    page_title="Energy-First AI Capacity Planning",
+    page_title="Applying an Energy-First Lens to AI Capacity Planning",
     page_icon="⚡",
     layout="wide"
 )
@@ -268,9 +268,11 @@ st.caption("Synthetic scenario | No Crusoe internal data used")
 
 st.markdown(
     """
-**A synthetic decision model exploring how commercial AI demand can be
-translated into powered-compute placement, capacity protection, and
-future expansion decisions.**
+**Crusoe's infrastructure strategy starts upstream with where scalable
+energy can be brought online. This synthetic model explores the next
+planning question: once current and future powered-compute capacity is
+understood, how should commercial demand be placed today while preserving
+constrained optionality and informing future expansion?**
 """
 )
 
@@ -309,9 +311,8 @@ A technically feasible placement can still be strategically poor if it
 consumes scarce powered compute or removes optionality for demand with
 fewer alternatives.
 
-**Energy-first distinction:** future power availability affects not only
-whether compute can be supported, but where additional capacity should
-eventually be created.
+**Capacity-planning implication:** future energy availability becomes an input
+to where additional powered-compute capacity may be most attractive to expand.
 """
 )
 
